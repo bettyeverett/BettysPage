@@ -1,0 +1,40 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+body {
+    text-decoration: none;
+    display: grid;
+}
+
+nav {
+    display: inline-block;
+}
+
+.images {
+    margin: none;
+    display: grid;
+    grid-template-columns: 20px 1fr 20px 1fr 20px;
+    grid-template-rows: 20px 1fr 20px;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.bcocktail {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.bface {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
