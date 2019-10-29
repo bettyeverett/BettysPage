@@ -8,11 +8,8 @@ body {
     display: grid;
 }
 
-nav {
-    display: inline-block;
-}
-
 .images {
+    max-width: 100%;
     margin: none;
     display: grid;
     grid-template-columns: 20px 1fr 20px 1fr 20px;
@@ -38,3 +35,14 @@ nav {
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
   }
+
+.nav-bar li {
+        padding: 20px;
+        text-transform: uppercase;
+        display: inline-block;
+}
+        
+.nav-bar a {
+            font-size: 1.5rem;
+            text-decoration: none;
+}
