@@ -36,6 +36,11 @@ body {
     transform: rotate(90deg);
   }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-bar li {
         padding: 20px;
         text-transform: uppercase;
