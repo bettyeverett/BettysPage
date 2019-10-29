@@ -27,7 +27,48 @@
             </nav>
         </header>
         <main>
-            <p></p>
+            <section class="contact green-banner padding">
+
+                <h2>Get in touch</h2>
+                
+                <p>You can <a href="emailto:hello@betty.com">email me</a>, or fill out the form:</p>
+                
+                <form action="" method="POST">
+                          
+                    <div class="field">
+                        <label for="full-name">Name</label>
+                        <input 
+                            id="full-name"
+                            type="text" 
+                            placeholder="Joe Bloggs" 
+                            required
+                        />
+                    </div>
+        
+                    <div class="field">
+                        <label for="email-address">Email</label>
+                        <input 
+                            id="email-address"
+                            type="email" 
+                            placeholder="something@somewhere.com" 
+                            required
+                        />
+                    </div>
+        
+                    <div class="field">  
+                        <label for="message">Message</label>
+                        <textarea 
+                            id="message"
+                            placeholder="eg">
+                        </textarea>
+                    </div>
+                    
+                    <div>
+                        <button class="form-button">Send</button>
+                    </div>
+                
+                </form>
+            </section>
         </main>
     </body>
 </html>

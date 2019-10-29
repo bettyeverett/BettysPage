@@ -37,12 +37,17 @@ body {
   }
 
 .nav-bar li {
-        padding: 20px;
-        text-transform: uppercase;
-        display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    display: inline-block;
 }
         
 .nav-bar a {
-            font-size: 1.5rem;
-            text-decoration: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
 }
